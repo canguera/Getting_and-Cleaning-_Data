@@ -23,7 +23,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable 
 for each activity and each subject.
 
-2. R script run_analysis.R details:
+
+2 R script run_analysis.R details:
 
 2.1 Prepararing:
 
@@ -64,7 +65,7 @@ for each activity and each subject
  
  -  Calculate the average of each variable for the column Performed_activity ( subjects.txt) and column Activity_Labels 
  ( activity_labels.txt). lapply()
- - Write the result in a independent tidy data set and it save as txt file
+ - Write the result in a independent tidy data set and it save as "AvarageSubjAct.txt" file
 
 
 Others:
