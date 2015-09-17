@@ -11,7 +11,7 @@ the training data and 30% the test data.
 Source : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-2 The new tidy data set AvarageSubjAct.txt:
+2.  The new tidy data set AvarageSubjAct.txt:
 
 2.1 Contain:
 
@@ -22,6 +22,7 @@ grouped by subject and activity labels, resulting in a total of 180 records.
 
 2.2.1 Activity_Labels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 2.2.2 Performed_activity: 1- 30 subjects Id{1...30}
+
 2.2.3 Rest features variables:
 
  [1] "TimeBodyAccelerator-mean()-X"                     "TimeBodyAccelerator-mean()-Y"                    
