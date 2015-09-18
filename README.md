@@ -55,7 +55,7 @@ for each activity and each subject.
 - Compare the column  values “Activity_Labels” from data set with the activity name from activity_labels.txt. 
 - After assign the corresponding  description value. data$column[data$column=="number"]<-"description from   
   activity_labels.txt"
-- Covert the data column "Activity_Labels" as factor.
+- Convert the data column "Activity_Labels" as factor.
 
 2.5 Appropriately labels the data set with descriptive variable names:
 
@@ -65,9 +65,9 @@ for each activity and each subject.
 2.6 From the data set in step 4, creates a second, independent tidy data set with the average of each variable 
 for each activity and each subject
  
- -  Calculate the average of each variable for the column Performed_activity ( subjects.txt) and column Activity_Labels 
- ( activity_labels.txt). lapply()
- - Write the result in a independent tidy data set and it save as "AvarageSubjAct.txt" file
+ -  Calculate the average of each variable for the column Performed_activity ( subjects.txt) and column Activity_Labels, 
+    grouped by Performed_Activity (subject) and Activity_Labels ( activity_labels.txt). lapply()
+ -  Write the result in a independent tidy data set and it save as "AvarageSubjAct.txt" file
 
 
 Others:
