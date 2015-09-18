@@ -4,8 +4,18 @@ It contain the experiments have been carried out with a group of 30 volunteers (
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 
 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
+
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating 
 the training data and 30% the test data. 
+
+Attribute Information:
+
+For each record in the dataset it is provided: 
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment. 
 
 
 Source : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -23,7 +33,7 @@ grouped by subject and activity labels, resulting in a total of 180 records.
 2.2.1 Activity_Labels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 2.2.2 Performed_activity: 1- 30 subjects Id{1...30}
 
-2.2.3 Rest features variables:
+2.2.3 Rest 64 features variables mean() and std() in time and frequency domain :
 
  [1] "TimeBodyAccelerator-mean()-X"                     "TimeBodyAccelerator-mean()-Y"                    
  [3] "TimeBodyAccelerator-mean()-Z"                     "TimeGravityAccelerator-mean()-X"                 
