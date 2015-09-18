@@ -1,5 +1,5 @@
 
-## Load the principlas libreries
+## Load the principals libreries
 
 > library(data.table)
 > library(dplyr)
