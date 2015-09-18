@@ -48,11 +48,13 @@ for each activity and each subject.
 -Search inside from global test&train data set, the columns names ( variables from features.txt) that contain mean and std 
 ( deviation) for extract the measurements. grep("-mean\\(\\)",grep("-std\\(\\)"
 - Marge the results in a new data set. rbind()
+- Add the columns values "Activity_Labels" and "Performed Activity" in new data
 
 2.4 Uses descriptive activity names to name the activities in the data set:
 
 - Compare the column  values “Activity_Labels” from data set with the activity name from activity_labels.txt. 
-- After assign the corresponding  description value. data$column[data$column=="number"]<-"description from activity_labels.txt"
+- After assign the corresponding  description value. data$column[data$column=="number"]<-"description from   
+  activity_labels.txt"
 - Covert the data column "Activity_Labels" as factor.
 
 2.5 Appropriately labels the data set with descriptive variable names:
