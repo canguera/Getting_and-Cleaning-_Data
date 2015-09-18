@@ -68,7 +68,7 @@ grouped by subject and activity labels, resulting in a total of 180 records.
 [61] "FrequencyBodyGyroscope-std()-Y"                   "FrequencyBodyGyroscope-std()-Z"                  
 [63] "FrequencyBodyAcceleratorMagnitude-std()"          "FrequencyBodyBodyAcceleratorJerkMagnitude-std()" 
 [65] "FrequencyBodyBodyGyroscopeMagnitude-std()"        "FrequencyBodyBodyGyroscopeJerkMagnitude-std()"   
-[67] "Activity_Labels"                                  "Performed_activity" 
+
 
 
 
