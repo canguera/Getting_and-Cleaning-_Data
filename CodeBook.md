@@ -22,13 +22,14 @@ Source : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HA
 
 
 
-
 2  The new tidy data set AvarageSubjAct.txt:
+
 
 2.1 Contain:
 
 It contain the average of each variable (mean and standard deviation) for each activity and each subject,from original data set 
 grouped by subject and activity labels, resulting in a total of 180 records.
+
 
 2.2 Variables:
 
