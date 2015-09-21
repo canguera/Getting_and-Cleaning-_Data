@@ -67,7 +67,8 @@ for each activity and each subject
  
  -  Calculate the average of each variable for the column Performed_activity ( subjects.txt) and column Activity_Labels, 
     grouped by Performed_Activity (subject) and Activity_Labels ( activity_labels.txt). lapply()
- -  Write the result in a independent tidy data set and it save as "AvarageSubjAct.txt" file
+ -  Write the result in a independent tidy data set and it save as "AvarageSubjAct.txt" file.  write.table() on  
+    row.names=FALSE.
 
 
 Others:
