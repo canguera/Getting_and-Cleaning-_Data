@@ -21,6 +21,8 @@ For each record in the dataset it is provided:
 Source : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
+
+
 2  The new tidy data set AvarageSubjAct.txt:
 
 2.1 Contain:
